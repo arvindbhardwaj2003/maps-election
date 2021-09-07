@@ -1,0 +1,10 @@
+[28-Apr-2020 15:11:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getStateDistrictUpdateStatus() in /home/indianel/indiacovid19.co.in/data/state/details/pages/update/index.php:938
+Stack trace:
+#0 {main}
+  thrown in /home/indianel/indiacovid19.co.in/data/state/details/pages/update/index.php on line 938
+[28-Apr-2020 15:14:25 UTC] PHP Notice:  Undefined variable: con in /home/indianel/indiacovid19.co.in/data/state/details/pages/update/index.php on line 938
+[28-Apr-2020 15:14:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/indianel/indiacovid19.co.in/data/phpFunctionsUserDefined.php:476
+Stack trace:
+#0 /home/indianel/indiacovid19.co.in/data/state/details/pages/update/index.php(938): getStateDistrictUpdateStatus(NULL)
+#1 {main}
+  thrown in /home/indianel/indiacovid19.co.in/data/phpFunctionsUserDefined.php on line 476
