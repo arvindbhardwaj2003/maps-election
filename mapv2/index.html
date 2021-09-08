@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Map of Hong Kong</title>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  
+  	<style>
+	.countries {
+		fill: #fff;
+		stroke: #ccc;
+		stroke-width: 2px;
+	}
+	.gratBackground {
+		fill: #D5E3FF;
+	}
+
+	.gratLines {
+		fill: none;
+		stroke: #999;
+		stroke-width: 1px;
+	}
+	svg {
+		position: absolute;
+	}
+	
+	//EXAMPLES 4 & 6 SUPPRESSED FOR SPACE
+	
+	.infolabel {
+		position: absolute;
+		width: 200px;
+		height: 50px;
+		color: #fff;
+		background-color: #000;
+		border: solid thin #fff;
+		padding: 5px;
+	}
+	
+	.infolabel h1 {
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		line-height: 1em;
+	}
+
+	.infolabel b {
+		float: left;
+	}
+
+	.labelname {
+		display: inline-block;
+		float: right;
+		margin: -25px 0px 0px 40px;
+		font-size: 1em;
+		font-weight: bold;
+		position: absolute;
+	}
+
+	
+	</style>
+  
+</head>
+<body>
+
+  
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+	<script type="module" src="lib/queue.js"></script>
+  <h3 id="map__text">Select a district on the map ...</h3>
+  
+  <div id="map__container"></div>
+  
+
+  <script src="main.js"></script>
+  
+</body>
+</html>
